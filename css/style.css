@@ -301,6 +301,18 @@ h1, h2, h3, h4, h5, h6, figure {
   position: relative;
   width: 100%;
 }
+
+#fh5co-header {
+  background-image: url('../images/complements/joeletbertille_inclined_resized-transformed2.png');
+}
+
+
+@media screen and (max-width: 768px) {
+  #fh5co-header {
+    background-image: url('../images/complements/JoeletBertille_1.jpg');
+  }
+}
+
 .fh5co-cover .overlay {
   z-index: 0;
   position: absolute;
@@ -385,7 +397,7 @@ h1, h2, h3, h4, h5, h6, figure {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 0.7);
 }
 @media screen and (max-width: 768px) {
   #fh5co-counter,
@@ -828,6 +840,8 @@ h1, h2, h3, h4, h5, h6, figure {
 form label {
   font-weight: normal !important;
 }
+
+
 
 #fh5co-header .display-tc,
 #fh5co-counter .display-tc,
@@ -1346,7 +1360,7 @@ form label {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0.7);
 }
 #fh5co-started .fh5co-heading h2 {
   color: #fff;
