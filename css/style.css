@@ -1864,4 +1864,12 @@ form label {
   opacity: 0;
 }
 
+/* .appelDonsContainer is a div with an image. I want the image to fit into the div and be centered */
+
+.appelDonsContainer img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: center;
+}
 /*# sourceMappingURL=style.css.map */
