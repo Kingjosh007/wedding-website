@@ -364,15 +364,12 @@ h1, h2, h3, h4, h5, h6, figure {
   }
 }
 
-#fh5co-counter,
-#fh5co-event {
+#fh5co-counter {
   height: 900px;
   float: left;
 }
 #fh5co-counter .display-t,
-#fh5co-counter .display-tc,
-#fh5co-event .display-t,
-#fh5co-event .display-tc {
+#fh5co-counter .display-tc {
   height: 700px;
   display: table;
   width: 100%;
@@ -1873,3 +1870,25 @@ form label {
   object-position: center;
 }
 /*# sourceMappingURL=style.css.map */
+
+#map {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#map img {
+  width: 56%;
+  height: auto;
+}
+
+@media screen and (max-width: 768px) {
+  #map img {
+    width: 65%;
+    height: auto;
+  }
+}
+
+sup {
+  color: #F14E95;
+}

@@ -54,6 +54,9 @@
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
 
+	<!-- Maps -->
+	<!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBJE18eAi-VyhhVK3ONxp_gwaKd5SGy7mg"></script> -->
+
 </head>
 
 <body>
@@ -164,7 +167,7 @@
 										<div class="event-col">
 											<i class="icon-clock"></i>
 											<span>19:00</span>
-											<span>Domicile Ngimenang</span>
+											<span><strong>Domicile Ngimenang</strong></span>
 										</div>
 
 									</div>
@@ -180,7 +183,7 @@
 										<div class="event-col">
 											<i class="icon-clock"></i>
 											<span>10:00</span>
-											<span>Mairie de Douala 5ème</span>
+											<span><strong>Mairie de Douala 5ème</strong></span>
 										</div>
 									</div>
 								</div>
@@ -195,7 +198,7 @@
 										<div class="event-col">
 											<i class="icon-clock"></i>
 											<span>14:00</span>
-											<span>Eglise du Cinquantenaire</span>
+											<span><strong>Eglise du Cinquantenaire</strong></span>
 										</div>
 									</div>
 								</div>
@@ -210,14 +213,25 @@
 										<div class="event-col">
 											<i class="icon-calendar"></i>
 											<span>19:00</span>
-											<span>École publique</span>
+											<span><strong>École publique<sup>*</sup></strong></span>
 										</div>
 									</div>
 								</div>
 							</div>
 						</div>
+
 					</div>
 				</div>
+				<p class="col-md-12 col-sm-12 text-center mt-4 directions-reception">
+					<sup><strong>*</strong></sup> En venant de la station Neptune Oil, 2ème entrée à gauche après l'école publique de Bonamoussadi.
+				</p>
+
+				<br><br>
+
+				<div class="col-md-6 col-sm-12 text-center mt-4" id="map">
+					<img src="./images/complements2/carte-reception.png" alt="Carte de la salle de réception">
+				</div>
+
 			</div>
 		</div>
 
@@ -378,6 +392,17 @@
 									<div class="item">
 										<div class="testimony-slide active text-center">
 											<figure>
+												<img src="images/complements2/temoin_mari_Max.jpg" alt="user">
+											</figure>
+											<span>Max Nkalle, <a href="#" class="twitter">Témoin du marié</a></span>
+											<blockquote>
+												<p>Heureux mariage, champion! C'est un honneur de pouvoir être ton témoin</p>
+											</blockquote>
+										</div>
+									</div>
+									<div class="item">
+										<div class="testimony-slide active text-center">
+											<figure>
 												<img src="images/complements/Stella.jpg" alt="user">
 											</figure>
 											<span>Stella, <a href="#" class="twitter">Dame d'honneur</a></span>
@@ -410,28 +435,6 @@
 													réelle inspiration pour moi. Quand Bertille m'a demandé si je
 													pouvais être sa dame d'honneur, je n'ai pas hésité un seul instant!
 												</p>
-											</blockquote>
-										</div>
-									</div>
-									<div class="item">
-										<div class="testimony-slide active text-center">
-											<figure>
-												<img src="images/couple-2.jpg" alt="user">
-											</figure>
-											<span>Quelqu'un, <a href="#" class="twitter">Témoin de la mariée</a></span>
-											<blockquote>
-												<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, provident. Lorem ipsum dolor sit amet.</p>
-											</blockquote>
-										</div>
-									</div>
-									<div class="item">
-										<div class="testimony-slide active text-center">
-											<figure>
-												<img src="images/complements/no.jpg" alt="user">
-											</figure>
-											<span>Individu, <a href="#" class="twitter">Témoin du marié</a></span>
-											<blockquote>
-												<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad labore adipisci ipsum architecto distinctio delectus veniam cum enim expedita quam.</p>
 											</blockquote>
 										</div>
 									</div>
@@ -538,57 +541,58 @@
 			{
 				title: "Nos premiers moments",
 				cover: "images/complements/JoeletBertille_3.jpg",
-				photos: [
-					"images/complements/JoeletBertille_3.jpg",
-					"images/complements/joeletbertille_incliné.PNG"
-				]
+			},
+			{
+				title: "Les mariés aujourd'hui",
+				cover: "images/complements2/les_maries.jpg"
 			},
 			{
 				title: "Notre petite famille",
-				cover: "images/complements/famille_1.jpg",
-				photos: [
-					"images/complements/famille_1.jpg",
-					"images/complements/enfants_3.jpg",
-					"images/complements/enfants_2.jpg",
-					"images/complements/enfants_1.jpg",
-				]
+				cover: "images/complements/famille_1.jpg"
 			},
 			{
-				title: "Déménagements, installations",
-				cover: "images/complements/famille_1.jpg",
-				photos: [
-					"images/complements/famille_1.jpg",
-					"images/complements/enfants_3.jpg",
-					"images/complements/enfants_2.jpg",
-					"images/complements/enfants_1.jpg",
-				]
+				title: "La famille",
+				cover: "images/complements2/famile_enfant_1.jpg"
 			},
 			{
-				title: "Photos des enfants",
-				cover: "images/complements/enfants_2.jpg",
-				photos: [
-					"images/complements/enfants_3.jpg",
-					"images/complements/enfants_2.jpg",
-					"images/complements/enfants_1.jpg",
-				]
+				title: "Joël, Bertille & Emmanuel",
+				cover: "images/complements/bertille_enfants_2.jpg"
 			},
 			{
-				title: "Rapprochement des familles",
-				cover: "images/complements/enfants_2.jpg",
-				photos: [
-					"images/complements/enfants_3.jpg",
-					"images/complements/enfants_2.jpg",
-					"images/complements/enfants_1.jpg",
-				]
+				title: "Les enfants",
+				cover: "images/complements/enfants_2.jpg"
 			},
 			{
-				title: "Préparatifs du mariage",
-				cover: "images/complements/JoeletBertille_3.jpg",
-				photos: [
-					"images/complements/enfants_3.jpg",
-					"images/complements/enfants_2.jpg",
-					"images/complements/enfants_1.jpg",
-				]
+				title: "Les enfants (2)",
+				cover: "images/complements/enfants_1.jpg"
+			},
+			{
+				title: "Les enfants (3)",
+				cover: "images/complements/enfants_3.jpg"
+			},
+			{
+				title: "Emmanuel",
+				cover: "images/complements2/emmanuel_1.jpg"
+			},
+			{
+				title: "Gabriel",
+				cover: "images/complements/gabriel.png"
+			},
+			{
+				title: "Joël & Emmanuel",
+				cover: "images/complements2/joel_emmanuel.jpg",
+			},
+			{
+				title: "Joël & les enfants",
+				cover: "images/complements2/joel_enfants_1.jpg",
+			},
+			{
+				title: "Bertille & les enfants",
+				cover: "images/complements/bertille_enfants_1.jpg",
+			},
+			{
+				title: "Le pagne du mariage",
+				cover: "images/complements2/theme_pagne.jpg",
 			}
 
 		]
@@ -601,7 +605,6 @@
 								style="background-image: url(${g.cover}); ">
 								<a href="${g.cover}">
 									<div class="case-studies-summary">
-										<span>${g.photos.length} Photos</span>
 										<h2>${g.title}</h2>
 									</div>
 								</a>
